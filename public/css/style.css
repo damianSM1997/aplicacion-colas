@@ -1,9 +1,22 @@
 html,
+
 body {
+    background-image: url(../img/fonto.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 100%;
     width: 100%;
-    background-color: #6951F0;
+    
+    /* fallback for old browsers 
+      background: #000428;
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  
+background: linear-gradient(to right, #004e92, #000428); 
+    */
     color: white;
+    
 }
 
 table {
@@ -13,7 +26,7 @@ table {
 }
 
 .ticket-actual {
-    background-color: #282828;
+    background-color: #491805da;
 }
 
 .ticket-actual-numero {
